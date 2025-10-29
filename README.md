@@ -4,12 +4,7 @@ Autorin: Evi Walkowsky | B.Sc. Wirtschaftsinformatik | Kurs: Data Analytics & Bi
 
 Dieses Repository enthält synthetische Daten und Skripte zur fiktiven Fallstudie und dient nur der Prüfung durch Tutor*innen. Ziel ist die Demonstration eines SAS-basierten Prototyps zur Analyse industrieller Fertigungsdaten (Predictive Maintenance, Condition Monitoring, Produktionsprognose, Durchsatz & Ausbeute, Industrie 4.0 / Digital Twin).
 
-Ordner:
-
-`/data/` → Enthält alle Datensätze (historisch 2020–2024 und aktuell ab 2025) 
-
-`/scripts/` → SAS- & Python-Skripte
-
-Klonen: `git clone https://github.com/eviwalkowsky/Data-Analytics-und-Big-Data_Fallstudie.git`  
+Alle Datensätze liegen im Ordner `/data/` (historisch 2020–2024, aktuell ab 2025); Skripte in `/scripts/`.  
+**Hinweis:** Im Python-Code müssen die Pfade angepasst werden, damit die Dateien ins Arbeitsverzeichnis geschrieben und anschließend in SAS hochgeladen werden können. Im SAS-Code muss `LIBNAME name` auf den entsprechenden Ordner gesetzt werden.
 
 Nur für akademische Zwecke. © 2025 Evi Walkowsky – IU Internationale Hochschule
